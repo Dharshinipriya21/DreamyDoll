@@ -1,7 +1,10 @@
 public class NumberPalindrome{
 
 	public static void main(String[] args) {
-		int num=Integer.parseInt(args[0]);
+		int num;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number:");
+		num=s.nextInt();
 		int n=num;
 		int reverse=0, remainder = 0;
 		while(num>0){
